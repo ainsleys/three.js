@@ -49,12 +49,12 @@ THREE.FirstPersonControls = function ( object, domElement ) {
 
 	this.viewHalfX = 0;
 	this.viewHalfY = 0;
+//commented out this section
+	// if ( this.domElement !== document ) {
 
-	if ( this.domElement !== document ) {
+	// 	this.domElement.setAttribute( 'tabindex', - 1 );
 
-		this.domElement.setAttribute( 'tabindex', - 1 );
-
-	}
+	// }
 
 	//
 
